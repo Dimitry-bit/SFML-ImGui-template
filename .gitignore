@@ -1,0 +1,10 @@
+# User-specific files
+.idea/*
+!.idea/cmake.xml
+
+# External lib directory
+external/*
+!external/CMakeLists.txt
+
+# Build directory
+bin/

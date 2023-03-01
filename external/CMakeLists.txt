@@ -15,7 +15,7 @@ if (NOT imgui_FOUND)
     FetchContent_Declare(
             imgui
             GIT_REPOSITORY https://github.com/ocornut/imgui
-            GIT_TAG 375ae5dce46fca73838832dac1e3bd0f3b4727f5
+            GIT_TAG e25e4526cd41cd6536194de098540d54244f54e9
             SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/imgui
     )
     FetchContent_MakeAvailable(imgui)
@@ -25,7 +25,7 @@ if (NOT imgui-sfml)
     FetchContent_Declare(
             imgui-sfml
             GIT_REPOSITORY https://github.com/eliasdaler/imgui-sfml
-            GIT_TAG 49dbecb43040449cccb3bfc43e3472cee94da417
+            GIT_TAG f0d8f72f073b367e9506b8794158cc91f015252e
             SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/imgui-sfml
     )
     set(IMGUI_DIR ${imgui_SOURCE_DIR})
